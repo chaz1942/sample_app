@@ -1,0 +1,19 @@
+{
+  "name": "sample_app",
+  "scripts": {
+    "postdeploy": "bin/rails server -environment production"
+  },
+  "env": {
+    "SECRET_KEY_BASE": {
+      "generator": "secret"
+    }
+  },
+  "formation": {
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+
+  ]
+}
